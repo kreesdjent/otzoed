@@ -1,0 +1,58 @@
+body { background-color: #f0f0f0; font-family: Arial; font-size: 16px; }
+input { font: inherit; }
+
+.plashka { padding: 10px; margin-bottom: 10px; border: 1px dotted silver; }
+.plashka.actions input[type=button] { padding: 4px; }
+.plashka.hint { float: left; display: none; background-color: moccasin; color: brown; border: none; }
+.plashka.msg { float: left; clear: left; display: none; background-color: royalblue; color: white; border: none; }
+
+.data-table { font: inherit; border-spacing: 0 8px; max-width: 800px; }
+.data-table td:first-child { text-align: right; vertical-align: top; }
+
+.col-name { padding: 4px; color: #555; }
+.col-name.hover { color: black; }
+.col-name.selected { color: black; text-decoration: underline; }
+
+.col-value { padding: 4px; border: 1px solid silver; background-color: white; text-align: left; }
+.col-value input { border: 0; padding: 0; margin: 0; font: inherit; color: black; width: 100%; box-sizing: border-box; }
+.col-value textarea { border: 0; padding: 0; margin: 0; font: inherit; color: black; width: 100%; box-sizing: border-box; resize: vertical; }
+.col-value select { border: 0; padding: 0; margin: 0; background-color: white; }
+
+.col-value.empty { color: silver; }
+.col-value.empty.changed { color: limegreen; }
+.col-value.readonly { background-color: transparent; }
+.col-value.changed { background-color: lightgreen; border-color: limegreen; }
+.col-value.hover { border-color: gray; }
+.col-value.selected { outline: 1px dashed cornflowerblue; }
+
+.col-display.has-interface { padding-bottom: 4px; border-bottom: 1px dashed silver; }
+.col-display.has-interface > .col-control { float: right; }
+.col-display.has-interface.hover { background-color: ghostwhite; }
+.col-display.has-interface.selected { background-color: ghostwhite; }
+
+.col-controls { text-align: right; }
+.col-controls-loader { margin: 4px 4px 3px 3px; vertical-align: top; }
+.col-controls-loader:last-child { margin-right: 3px; }
+
+.col-widget { position: fixed; left: 0; top: 0; max-width: 400px; padding: 10px; background-color: #F5F5F5; border: 5px solid #a0a0a0; box-shadow: 0 0 10px 7px silver; }
+
+.col-interface { margin-top: 4px; }
+.col-interface.column select { max-width: 50%; }
+
+.date-input { position: absolute; margin: 6px 0 0 -5px; background-color: white; max-width: 242px; }
+.date-input-head { background-color: gray; color: white; font-weight: bold; padding: 4px; }
+.date-input-body { border: 1px solid gray; background-color: gainsboro; }
+.date-input-body b { cursor: pointer; display: inline-block; padding: 3px; margin: 1px; border: 2px solid silver; background-color: white; font-weight: normal; }
+.date-input-body b:hover { border-color: gray; }
+
+
+.prodcolumn > a:first-of-type { color: brown; font-weight: bold; }
+.revcolumn > a:first-of-type { color: brown; font-weight: bold; }
+.revcolumn > a:last-of-type { color: black; }
+
+
+.cat-item { color: black; }
+.cat-name .cat-item:last-child { font-weight: bold; color: green; }
+.cat-item:hover { background-color: #a0c0FF; color: black; text-decoration: none; }
+.cat-scroll { overflow: auto; font-size: 14px; max-height: 40ex; column-count: 2; -moz-column-count: 2; -webkit-column-count: 2; }
+.cat-scroll .cat-icon { vertical-align: middle; }

@@ -1,0 +1,35 @@
+body { font-size: 14px; font-family: Arial; background-color: #f0f0f0; }
+
+.plashka { border: 1px solid silver; padding: 4px; margin-bottom: 4px; }
+.plashka.paging:last-of-type { margin-top: 4px; }
+.plashka.paging .page { display: inline-block; padding: 4px 8px; margin: 1px; border: 1px solid silver; text-decoration: none; }
+.plashka.paging .page.current { background-color: white; }
+.plashka.paging .page:hover { border-color: black; }
+
+.plashka.hint { padding: 10px; margin-bottom: 10px; border: 1px dotted silver; font-size: 16px; float: left; display: none; background-color: moccasin; color: brown; border: none; }
+
+.data-table { border: 1px solid silver; border-collapse: collapse; background-color: whitesmoke; font: inherit; margin-bottom: 4px; }
+.data-table th { border: 1px solid gray; padding: 4px; }
+.data-table td { border: 1px solid silver; padding: 4px; }
+.data-table thead tr { background-color: #d3d3d3; }
+.data-table tbody tr.odd { background-color: #e9e9e9; }
+.data-table tbody tr:hover { outline: 2px solid cornflowerblue; }
+
+.catcolumn { font-size: x-small; color: gray; }
+.catcolumn a { color: gray; }
+.catcolumn a:first-child { font-size: small; color: steelblue; }
+.catcolumn .cat-icon { display: block; float: left; margin-right: 4px; }
+.catcolumn div { margin-left: 30px; }
+
+.revcolumn a:first-child { font-size: small; color: brown; }
+.revcolumn a:last-child { font-size: small; color: black; }
+.prodcolumn a { font-size: small; color: brown; }
+.prodcolumn img { margin-right: 4px; vertical-align: middle; max-height: 32px; max-width: 32px; }
+.usercolumn a { font-size: small; color: darkslategray; }
+.usercolumn img { margin-right: 4px; vertical-align: middle; max-height: 32px; max-width: 32px; }
+
+.statuscolumn.status4 { background-color: inherit; }
+.statuscolumn.status5 { background-color: inherit; }
+.statuscolumn.status10 { background-color: inherit; }
+
+a:visited { color: #551A96; }
